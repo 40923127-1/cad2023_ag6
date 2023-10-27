@@ -6,6 +6,16 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
+flask = "^3.0.0"
+gevent = "^23.9.1"
+pelican = "^4.8.0"
+pytz = "^2023.3.post1"
+typogrify = "^2.0.7"
+bs4 = "^0.0.1"
+waitress = "^2.1.2"
+fabric = "^3.2.2"
+jinja2 = "^3.1.2"
+markdown = "^3.5"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
